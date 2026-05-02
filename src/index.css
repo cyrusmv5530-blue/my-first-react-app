@@ -1,1 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "flowbite/src/themes/default";
 @import "tailwindcss";
+@import 'leaflet/dist/leaflet.css';
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+@theme {
+  --color-mainBg: #FDFFF5;
+  --color-primaryBox: #EDEAE0;
+  --color-primaryBox2: #E3BD90;
+  --color-secondaryBox: #e0d2c0;
+  --color-secondaryBox2:#EEE7D5;
+  --color-accent: #D7C9DB;
+  --color-accent2: #d4cebe;
+  --color-accent3: #e2e4de;
+  --color-text: #514354;
+  --color-text2: #310804;
+  --color-hover1: #86728B;
+  --color-hover2:  #e6dce9;
+
+}
+
+@theme {
+  --font-sgummy: "Lora", serif;
+  --font-fred: "Nunito", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-body-bg);
+  }
+}

@@ -2,14 +2,12 @@ function AboutCard({myTitle, mySubtitle, text, img1, img2}) {
 
   return (
     <>
-    <div className = 'bg-gray-300 border-slate-700 p-6 m-4 '>
-    <h1 className = 'font-bold font-sans text-center'>{myTitle}</h1>
-    <h4 className = 'text-center font-serif'>{mySubtitle}</h4>
-    <p>{text}</p>
-    <img src={img1} alt="picture" width = "200"></img>
-    <img src={img2} alt="picture" width = "200"></img>
-
-
+    <div className = 'bg-secondaryBox2 border-accent2  border p-6 m-6 shadow-xl/15 rounded-md'>
+      <div className = "border-l-accent2 border-r-accent2 border-r-2 border-l-2 p-6">
+        <h1 className = 'text-4xl font-bold font-sgummy text-center w-fit m-auto bg-border-secondaryBox'>{myTitle}</h1>
+        <h4 className = 'text-center text-2xl font-sgummy'>{mySubtitle}</h4>
+        <p className = "font-sgummy text-text text-xl m-6">{text}</p>
+      </div>
     </div>
     </>
   );
