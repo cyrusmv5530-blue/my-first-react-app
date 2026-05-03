@@ -75,6 +75,7 @@ JSON.parse(localStorage.getItem("user"))
         <Route path="/shelter" element={<Shelter />} />
         <Route path="/rehab" element={<Rehab />} />
         <Route path="/MapSelect" element={<MapSelect />} />
+        <Route path="*" element={<Navigate to="/" />} />
 
       </Routes>
 
