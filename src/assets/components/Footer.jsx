@@ -24,9 +24,9 @@ export default function Footer({setContactOpen}){
         Pages
       </h1>
       <ul className = 'font-sgummy text-center text-text2'>
-        <li className = 'hover:text-hover1'><a href = "/food">Food</a></li>
-        <li className = 'hover:text-hover1'><a href = "/shelter">Shelter</a></li>
-        <li className = 'hover:text-hover1'> <a href = "/rehab">Rehab</a></li>
+        <li className = 'hover:text-hover1'><Link to = "/food">Food</Link></li>
+        <li className = 'hover:text-hover1'><Link to = "/shelter">Shelter</Link></li>
+        <li className = 'hover:text-hover1'> <Link to = "/rehab">Rehab</Link></li>
       </ul>
       </div>
 
@@ -35,8 +35,8 @@ export default function Footer({setContactOpen}){
         Company
       </h1>
       <ul className = 'font-sgummy text-center text-text2'>
-        <li className = 'hover:text-hover1'><a href = "/about" >About Us</a></li>
-        <li className = 'hover:text-hover1'><a href = "/profile" >Profile</a></li>
+        <li className = 'hover:text-hover1'><Link to = "/about" >About Us</Link></li>
+        <li className = 'hover:text-hover1'><Link to = "/profile" >Profile</Link></li>
         <li className = 'hover:text-hover1' onClick={() => setContactOpen(true)} >Contact Us</li>
       </ul>
 

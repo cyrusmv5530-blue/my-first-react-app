@@ -11,8 +11,8 @@ function ResourceTypes({Resource, RDesc, icon, RLink}){
         </div>
       <br/>
       <div className = "text-center">
-      <a href={RLink} className='inline-block relative font-bold font-fred text-4xl text-text hover:text-hover1 hover:border-b-hover1 hover:border-b-4 m-4'>{Resource}
-      </a>  
+      <Link to={RLink} className='inline-block relative font-bold font-fred text-4xl text-text hover:text-hover1 hover:border-b-hover1 hover:border-b-4 m-4'>{Resource}
+      </Link>  
       </div>
       <h2 className='font-sgummy text-2xl text-text '>{RDesc}
       </h2>

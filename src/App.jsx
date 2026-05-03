@@ -74,9 +74,8 @@ JSON.parse(localStorage.getItem("user"))
         <Route path="/food" element={<Food />} />
         <Route path="/shelter" element={<Shelter />} />
         <Route path="/rehab" element={<Rehab />} />
-        <Route path="/MapSelect" element={<MapSelect />} />
+        <Route path="/mapselect" element={<MapSelect />} />
         <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/my-first-react-app/" element={<Home />} />
 
 
       </Routes>
