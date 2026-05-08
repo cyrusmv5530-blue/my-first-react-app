@@ -20,6 +20,10 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 })
 
+L.Icon.Default.prototype.options.iconUrl = markerIcon
+L.Icon.Default.prototype.options.iconRetinaUrl = markerIcon2x
+L.Icon.Default.prototype.options.shadowUrl = markerShadow
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
